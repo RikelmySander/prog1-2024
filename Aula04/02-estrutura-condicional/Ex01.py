@@ -9,5 +9,12 @@ Digite um número inteiro: 5
 Saída:
 5 é um número ímpar.
 """
-def eh_par(numero):
-    return numero % 2 == 0
+num = int(input("Write a number: "))
+
+def even_Number(number):
+    return number % 2 == 0
+
+if even_Number(num):
+    print(f"this number {num} is even. this is function return {even_Number(num)}")
+else:
+    print(f"This number {num} is odd. This is function return {even_Number(num)}")

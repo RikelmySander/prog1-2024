@@ -18,5 +18,5 @@ Digite a senha: 122
 Senha incorreta. Tente novamente.
 Você esgotou suas tentativas. Acesso negado.
 """
-
-
+for x in range(10):
+    print(x)

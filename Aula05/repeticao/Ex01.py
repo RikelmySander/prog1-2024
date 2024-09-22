@@ -13,5 +13,8 @@ Saída:
 1
 Contagem regressiva concluída.
 """
+import time 
 numero = int(input("Digite um número inteiro positivo: "))
-# implemente seu código aqui
+for n in range(numero,0,-1):
+    time.sleep(1)
+    print(n)

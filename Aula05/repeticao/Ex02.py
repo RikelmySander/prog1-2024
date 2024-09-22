@@ -11,3 +11,5 @@ Saída:
 9
 """
 numero = int(input("Digite um número inteiro positivo: "))
+for numero in range(1, numero, 2):
+    print(numero)

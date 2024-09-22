@@ -15,3 +15,16 @@ Tente um número menor.
 Digite um número: 61
 Parabéns! Você acertou o número em 3 tentativas.
 """
+import random
+n_secret = random.randint(1,100)
+tentativas = 0
+while True:
+    n_do_ususario = int(input("Digite um numero: "))
+    tentativas += 1
+    if n_do_ususario > n_secret:
+        print("Digite um numero menor!")
+    elif n_do_ususario < n_secret:
+        print("Digite um numero maior!")
+        continue
+    else:
+        print(f"Voce acertou, em {tentativas} tentativas!!")
