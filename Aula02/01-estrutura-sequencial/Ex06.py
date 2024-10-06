@@ -6,5 +6,6 @@ Digite uma palavra: PYTHON
 
 Exemplo de saída:
 A palavra em minúsculas é: python
-
 """
+Palavra = input("Digite uma palavra: ")
+print(Palavra.lower())
