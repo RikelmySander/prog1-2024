@@ -14,12 +14,12 @@ print("Ex 1: Número de Palavras: ")
 print("Ex 2: Palavra Mais Longa: ")
 
 
-# Ex 3. Inverta a ordem das palavras no texto e imprima o resultado. Use 02-for ou 01-while.
+# Ex 3. Inverta a ordem das palavras no texto e imprima o resultado.
 # Exemplo: "Olá, mundo!" -> "mundo! Olá,"
 print("Ex 3: Invertendo a Ordem das Palavras: ")
 
 
-# Ex 4. Inverta a ordem dos caracteres no texto e imprima o resultado. Use 01-while.
+# Ex 4. Inverta a ordem dos caracteres no texto e imprima o resultado.
 # Exemplo: "Olá, mundo!" -> "!odnum ,álO"
 print("Ex 4: Invertendo a Ordem dos Caracteres: ")
 
@@ -33,7 +33,7 @@ print("Ex 5: Palavras que Começam com Letra Maiúscula: ")
 print("Ex 6: Primeira Palavra com Mais de 10 Letras: ")
 
 
-# Ex 7. Utilize um laço 01-while para contar quantas vezes a vírgula aparece no texto.
+# Ex 7. Utilize um laço para contar quantas vezes a vírgula aparece no texto.
 print("Ex 7: Contagem de Vírgulas: ")
 
 
@@ -54,7 +54,7 @@ print("Ex 11: Contagem de Sentenças: ")
 
 
 # Ex 12. Reverter a Ordem das Sentenças no Texto
-# Utilize um laço 01-while para inverter a ordem das sentenças no texto.
+# Utilize um laço para inverter a ordem das sentenças no texto.
 # Considere uma sentença como qualquer sequência de caracteres terminada por um ponto.
 print("Ex 12: Invertendo a Ordem das Sentenças: ")
 
