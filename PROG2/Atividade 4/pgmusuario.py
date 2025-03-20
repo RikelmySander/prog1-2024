@@ -15,13 +15,13 @@ while True:
     
     vconfirma = input("Deseja cadastrar? (s/n)")
     if vconfirma.upper() == "S":
-#
-#  COMANDOS PARA INSERIR DADOS NO BANCO
-#
+        conn.execute('''insert into usuario values (?,?,?,?,?,?)''',
+                     (vid,vnome,vcpf,vemail,vlogin,vsenha))
+        conn.commit()
     else:
        print("Não será gravado!")
-    vcontinua = input("Digite s para continuar: ")
+    vcontinua = input("Digite s para continuar ou n para sair: ")
     if vcontinua.upper() != "S":
        break  
-
+conn.close()
 quit()
